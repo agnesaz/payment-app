@@ -102,7 +102,6 @@ API Endpoints
 
     POST /api/providers/create-provider
         Creates a new payment provider. Requires admin privileges.
-        Bearer token required.
         Authorization: Bearer token required.
         Request Body: {"name": "ProviderName"}
 
@@ -128,6 +127,7 @@ Run unit tests using:
     npm test
 
 Contributing
+
     Fork the repository.
     Create a new branch (git checkout -b feature-branch).
     Commit your changes (git commit -am 'Add new feature').
