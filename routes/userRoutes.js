@@ -1,16 +1,3 @@
-// const express = require('express');
-// const UserController = require('../controllers/UserController');
-// const router = express.Router();
-// const verifyToken = require('../middleware/authMiddleware');
-
-// router.post('/register', UserController.createUser);
-
-// router.post('/additional-info', verifyToken, UserController.updateAdditionalInfo);
-
-// module.exports = router;
-
-
-
 const express = require('express');
 const { validationResult } = require('express-validator');
 const UserController = require('../controllers/UserController');

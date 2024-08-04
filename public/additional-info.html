@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Additional Information</title>
+    <title>Additional Information</title>
 </head>
+
 <body>
-  <h2>Additional Information</h2>
-  <form id="additionalInfoForm">
-    <label for="country">Country:</label><br>
-    <input type="text" id="country" name="country" required><br><br>
-    
-    <label for="phone">Phone:</label><br>
-    <input type="text" id="phone" name="phone" required><br><br>
-    
-    <label for="postalCode">Postal Code:</label><br>
-    <input type="text" id="postalCode" name="postalCode" required><br><br>
+    <h2>Additional Information</h2>
+    <form id="additionalInfoForm">
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" required><br><br>
 
-    <input type="button" value="Continue to Payment" onclick="redirectToPayment()">
-  </form>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
 
-  <script>
-    function redirectToPayment() {
-      window.location.href = 'payment-form.html';
-    }
-  </script>
+        <label for="postalCode">Postal Code:</label><br>
+        <input type="text" id="postalCode" name="postalCode" required><br><br>
+
+        <input type="button" value="Continue to Payment" onclick="redirectToPayment()">
+    </form>
+
+    <script>
+        function redirectToPayment() {
+            window.location.href = 'payment-form.html';
+        }
+    </script>
 </body>
+
 </html>

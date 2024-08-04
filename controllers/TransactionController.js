@@ -1,13 +1,13 @@
 const TransactionService = require('../services/TransactionService');
-const logger = require('../config/logger'); 
+const logger = require('../config/logger');
 
 class TransactionController {
     static async createTransaction(req, res) {
-        try {  
+        try {
             const { providerId, amount } = req.body;
             const { id: userId, email } = req.user;
 
-     
+
             logger.info(`Request to create transaction: User ID ${userId}, Email ${email}, Amount ${amount}, Provider ID ${providerId}`);
 
             const transaction = await TransactionService.createTransaction({ userId, email, amount, providerId });
@@ -21,11 +21,11 @@ class TransactionController {
                 
                 res.status(500).json({
                     message: transaction.message || 'Payment failed. Please try again',
-                    error: {
-                        message: 'Payment failed'
-                    }
-                });
-            }
+                error: {
+                    message: 'Payment failed'
+                }
+               });
+        }
         } catch (error) {
             logger.error(`Unexpected error occurred while creating transaction: ${error.message}`);
             
