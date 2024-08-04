@@ -15,9 +15,9 @@ Table of Contents
 
     Technologies Used
     Setup and Installation
-    Frontend
     Backend
     API Endpoints
+    Frontend
     Testing
     Contributing
     License
