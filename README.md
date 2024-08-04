@@ -1,6 +1,6 @@
 Payment App
 
-This is a simple payment application built using Node.js and Express.js. The application allows users to register, select payment providers, and make payments. It includes both a frontend for user interaction and a backend for processing transactions.
+This is a simple payment application built using Node.js and Express.js. It allows users to register, select payment providers, and make payments. Although the primary focus is on backend functionalities—such as transaction processing and business logic—several frontend HTML pages have been included to enable basic user interactions
 
 Features
     User registration
