@@ -3,13 +3,16 @@ Payment App
 This is a simple payment application built using Node.js and Express.js. It allows users to register, select payment providers, and make payments. Although the primary focus is on backend functionalities—such as transaction processing and business logic—several frontend HTML pages have been included to enable basic user interactions
 
 Features
+
     User registration
     Fetching and displaying payment providers
     Making payments
     Handling success and failure modals
     Token-based authentication
 
+
 Table of Contents
+
     Technologies Used
     Setup and Installation
     Frontend
@@ -19,15 +22,19 @@ Table of Contents
     Contributing
     License
 
+
 Technologies Used
+
     Backend: Node.js, Express.js
     Database: MongoDB (via Mongoose)
     Frontend: HTML, CSS, JavaScript
     Authentication: JWT
     Logging: Winston
 
+
 Setup and Installation
 Prerequisites
+
     Node.js (v14 or higher)
     MongoDB (local or remote instance)  
 
