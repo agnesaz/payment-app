@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+</head>
+<body>
+  <h2>Register User</h2>
+  <form id="registrationForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" id="lastname" name="lastname" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <input type="button" value="Register" onclick="registerUser()">
+  </form>
+
+  <div id="errorMessages" style="color: red; margin-top: 20px;"></div>
+
+  <script>
+    async function registerUser() {
+      const name = document.getElementById('name').value;
+      const lastname = document.getElementById('lastname').value;
+      const email = document.getElementById('email').value;
+
+      try {
+        const response = await fetch('http://localhost:3000/api/users/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ name, lastname, email })
+        });
+
+        const responseData = await response.json();
+
+        if (response.ok) {
+          localStorage.setItem('token', responseData.token);
+          window.location.href = 'success.html';
+        } else {
+          document.getElementById('errorMessages').innerHTML = `
+            ${responseData.errors ? responseData.errors.map(err => `<p>${err.msg}</p>`).join('') : 'Registration failed: ' + responseData.message}
+          `;
+        }
+      } catch (error) {
+        document.getElementById('errorMessages').innerHTML = `<p>Error: ${error.message}</p>`;
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,973 @@
+{"level":"info","message":"Request to create transaction: User ID 66af30997d955ce8155f5895, Email johnTes4dededfddfdfdtwiefefefeth.fedoee@exampfgfgrgedefefrle.com, Amount 400, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T08:37:20.536Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af3dc0a15391293ba96b95\",\"userId\":\"66af30997d955ce8155f5895\",\"success\":true}","timestamp":"2024-08-04T08:37:21.587Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1075ms","timestamp":"2024-08-04T08:37:21.591Z","user":"66af30997d955ce8155f5895"}
+{"level":"info","message":"Request to create transaction: User ID 66af30997d955ce8155f5895, Email johnTes4dededfddfdfdtwiefefefeth.fedoee@exampfgfgrgedefefrle.com, Amount 400, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T08:37:37.890Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T08:37:38.934Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T08:37:38.935Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1050ms","timestamp":"2024-08-04T08:37:38.936Z","user":"66af30997d955ce8155f5895"}
+{"level":"info","message":"POST /api/transactions/create-transaction 401 5ms","timestamp":"2024-08-04T08:38:13.226Z","user":"anonymous"}
+{"level":"info","message":"POST /api/providers/create-provider 403 39ms","timestamp":"2024-08-04T08:40:19.596Z","user":"66af30997d955ce8155f5895"}
+{"level":"info","message":"POST /api/providers/create-provider 403 8ms","timestamp":"2024-08-04T08:40:25.762Z","user":"66af30997d955ce8155f5895"}
+{"level":"info","message":"POST /api/providers/create-provider 403 52ms","timestamp":"2024-08-04T08:40:39.522Z","user":"66af30997d955ce8155f5895"}
+{"level":"info","message":"POST /api/providers/create-provider 401 10ms","timestamp":"2024-08-04T08:43:06.508Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 201 30ms","timestamp":"2024-08-04T08:46:03.671Z","user":"anonymous"}
+{"level":"info","message":"POST /api/providers/create-provider 403 33ms","timestamp":"2024-08-04T08:46:43.232Z","user":"66af3fcb55edee52f2074ae6"}
+{"level":"info","message":"Request to create payment provider: {\"name\":\"TESTProviderPaymentTest\"}","timestamp":"2024-08-04T08:47:25.558Z"}
+{"level":"info","message":"Payment provider created successfully: {\"name\":\"TESTProviderPaymentTest\",\"token\":\"32e6f65cf4e2a75a0e694932f0738b93\",\"_id\":\"66af401d55edee52f2074aea\",\"__v\":0}","timestamp":"2024-08-04T08:47:25.564Z"}
+{"level":"info","message":"POST /api/providers/create-provider 201 35ms","timestamp":"2024-08-04T08:47:25.566Z","user":"66af3fcb55edee52f2074ae6"}
+{"level":"info","message":"Request to create user: {\"name\":\"TestwithAdmidfdfdfn Usefrfrfrfefdeded34\",\"lastname\":\"Doe4dededwith Tffeferfrfest\",\"email\":\"johnTes4dededfddfdfdtwiefefefethedede.fedefefsfoee@exampfgfgrgedefefrle.com\"}","timestamp":"2024-08-04T08:49:19.901Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"TestwithAdmidfdfdfn Usefrfrfrfefdeded34\",\"lastname\":\"Doe4dededwith Tffeferfrfest\",\"email\":\"johnTes4dededfddfdfdtwiefefefethedede.fedefefsfoee@exampfgfgrgedefefrle.com\",\"isAdmin\":false,\"_id\":\"66af408f2a35a9889861f4bc\",\"__v\":0}","timestamp":"2024-08-04T08:49:19.920Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY0MDhmMmEzNWE5ODg5ODYxZjRiYyIsImVtYWlsIjoiam9oblRlczRkZWRlZGZkZGZkZmR0d2llZmVmZWZldGhlZGVkZS5mZWRlZmVmc2ZvZWVAZXhhbXBmZ2ZncmdlZGVmZWZybGUuY29tIiwiaWF0IjoxNzIyNzYxMzU5LCJleHAiOjE3MjI4NDc3NTl9.cEW8DBSput3qTUBUh2Xf9GXJEoO20jzng5BdlXjrwOE","timestamp":"2024-08-04T08:49:19.921Z"}
+{"level":"info","message":"POST /api/users/register 201 37ms","timestamp":"2024-08-04T08:49:19.927Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T08:50:20.377Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T08:51:04.486Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 6ms","timestamp":"2024-08-04T08:59:10.929Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:02:37.871Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 200 10ms","timestamp":"2024-08-04T09:02:44.311Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"testRegister\",\"lastname\":\"Testtest\",\"email\":\"gdgrg@gmail.com\"}","timestamp":"2024-08-04T09:02:58.005Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"testRegister\",\"lastname\":\"Testtest\",\"email\":\"gdgrg@gmail.com\",\"isAdmin\":false,\"_id\":\"66af43c2114e7642c934d7c4\",\"__v\":0}","timestamp":"2024-08-04T09:02:58.042Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY0M2MyMTE0ZTc2NDJjOTM0ZDdjNCIsImVtYWlsIjoiZ2RncmdAZ21haWwuY29tIiwiaWF0IjoxNzIyNzYyMTc4LCJleHAiOjE3MjI4NDg1Nzh9.IzSlK_WPA9JoGe3OU6VNpJGEYGiZIQmkgVstPmAUvIg","timestamp":"2024-08-04T09:02:58.043Z"}
+{"level":"info","message":"POST /api/users/register 201 58ms","timestamp":"2024-08-04T09:02:58.045Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 200 2ms","timestamp":"2024-08-04T09:02:58.065Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 200 2ms","timestamp":"2024-08-04T09:03:14.946Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 2ms","timestamp":"2024-08-04T09:03:33.274Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:04:06.740Z"}
+{"level":"info","message":"GET /additional-info.html 200 14ms","timestamp":"2024-08-04T09:04:11.007Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:15:19.165Z"}
+{"level":"info","message":"GET /additional-info.html 200 8ms","timestamp":"2024-08-04T09:17:30.850Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 3ms","timestamp":"2024-08-04T09:17:35.489Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 2ms","timestamp":"2024-08-04T09:17:43.827Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:18:36.467Z"}
+{"level":"info","message":"GET /additional-info.html 200 12ms","timestamp":"2024-08-04T09:18:40.538Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 25ms","timestamp":"2024-08-04T09:18:45.415Z","user":"anonymous"}
+{"level":"info","message":"GET /payment.html 404 4ms","timestamp":"2024-08-04T09:19:02.859Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 3ms","timestamp":"2024-08-04T09:19:12.392Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 2ms","timestamp":"2024-08-04T09:19:55.620Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 3ms","timestamp":"2024-08-04T09:19:57.008Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:21:02.125Z"}
+{"level":"info","message":"GET /additional-info.html 200 9ms","timestamp":"2024-08-04T09:21:07.667Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 23ms","timestamp":"2024-08-04T09:21:09.120Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 2ms","timestamp":"2024-08-04T09:21:14.379Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:22:29.097Z"}
+{"level":"info","message":"GET /additional-info.html 200 12ms","timestamp":"2024-08-04T09:22:36.108Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 11ms","timestamp":"2024-08-04T09:22:38.992Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 2ms","timestamp":"2024-08-04T09:22:59.264Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"rvdrfrf\",\"lastname\":\"sfsfsref\",\"email\":\"sefsef@hotmail.com\"}","timestamp":"2024-08-04T09:23:06.727Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"rvdrfrf\",\"lastname\":\"sfsfsref\",\"email\":\"sefsef@hotmail.com\",\"isAdmin\":false,\"_id\":\"66af487af23c834ccdca2dca\",\"__v\":0}","timestamp":"2024-08-04T09:23:06.776Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY0ODdhZjIzYzgzNGNjZGNhMmRjYSIsImVtYWlsIjoic2Vmc2VmQGhvdG1haWwuY29tIiwiaWF0IjoxNzIyNzYzMzg2LCJleHAiOjE3MjI4NDk3ODZ9.VyEU0Nqk54CZ4eZCX02xhQdZ3hM-9v8QGXXZ85NI7Go","timestamp":"2024-08-04T09:23:06.777Z"}
+{"level":"info","message":"POST /api/users/register 201 53ms","timestamp":"2024-08-04T09:23:06.778Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T09:23:06.788Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 7ms","timestamp":"2024-08-04T09:23:10.997Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 3ms","timestamp":"2024-08-04T09:23:16.098Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:38:58.058Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 6ms","timestamp":"2024-08-04T09:39:03.862Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"drgsrgrsg\",\"lastname\":\"srgsrgrsg\",\"email\":\"rsgseg@gmail.com\"}","timestamp":"2024-08-04T09:39:13.347Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"drgsrgrsg\",\"lastname\":\"srgsrgrsg\",\"email\":\"rsgseg@gmail.com\",\"isAdmin\":false,\"_id\":\"66af4c418d40cbc457ee95f7\",\"__v\":0}","timestamp":"2024-08-04T09:39:13.392Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY0YzQxOGQ0MGNiYzQ1N2VlOTVmNyIsImVtYWlsIjoicnNnc2VnQGdtYWlsLmNvbSIsImlhdCI6MTcyMjc2NDM1MywiZXhwIjoxNzIyODUwNzUzfQ.7Ht4HUzvE9ZqA_V3Ht-FZlLXcrs4053rkT_WzSnnwT8","timestamp":"2024-08-04T09:39:13.392Z"}
+{"level":"info","message":"POST /api/users/register 201 73ms","timestamp":"2024-08-04T09:39:13.401Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T09:39:13.416Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 200 21ms","timestamp":"2024-08-04T09:39:16.337Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/additional-info 401 21ms","timestamp":"2024-08-04T09:39:24.224Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:41:29.897Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:42:14.226Z"}
+{"level":"info","message":"POST /api/users/additional-info 401 27ms","timestamp":"2024-08-04T09:42:21.731Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 200 21ms","timestamp":"2024-08-04T09:42:24.815Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 3ms","timestamp":"2024-08-04T09:43:39.153Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 1ms","timestamp":"2024-08-04T09:43:46.982Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"agnesaTest\",\"lastname\":\"testttt\",\"email\":\"test@gmail.com\"}","timestamp":"2024-08-04T09:44:16.578Z"}
+{"level":"error","message":"Error creating user: E11000 duplicate key error collection: payment-app.users index: email_1 dup key: { email: \"test@gmail.com\" }","timestamp":"2024-08-04T09:44:16.620Z"}
+{"level":"info","message":"POST /api/users/register 500 45ms","timestamp":"2024-08-04T09:44:16.621Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 3ms","timestamp":"2024-08-04T09:44:42.081Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:44:46.055Z"}
+{"level":"info","message":"Request to create user: {\"name\":\"efsfsef\",\"lastname\":\"esfsefsef\",\"email\":\"sefsefsre@hotmail.com\"}","timestamp":"2024-08-04T09:44:56.365Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"efsfsef\",\"lastname\":\"esfsefsef\",\"email\":\"sefsefsre@hotmail.com\",\"isAdmin\":false,\"_id\":\"66af4d98b78f17f715b794c4\",\"__v\":0}","timestamp":"2024-08-04T09:44:56.411Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY0ZDk4Yjc4ZjE3ZjcxNWI3OTRjNCIsImVtYWlsIjoic2Vmc2Vmc3JlQGhvdG1haWwuY29tIiwiaWF0IjoxNzIyNzY0Njk2LCJleHAiOjE3MjI4NTEwOTZ9.2O7kAZNRwFsP6elcT37mvTwdGWohD44awdLZ36rEr0k","timestamp":"2024-08-04T09:44:56.412Z"}
+{"level":"info","message":"POST /api/users/register 201 65ms","timestamp":"2024-08-04T09:44:56.416Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 2ms","timestamp":"2024-08-04T09:44:56.436Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 1ms","timestamp":"2024-08-04T09:44:59.167Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 0ms","timestamp":"2024-08-04T09:45:02.646Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:47:52.622Z"}
+{"level":"info","message":"GET /payment-form.html 200 8ms","timestamp":"2024-08-04T09:48:01.297Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 401 27ms","timestamp":"2024-08-04T09:48:24.650Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:52:40.547Z"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T09:54:27.831Z","user":"anonymous"}
+{"level":"info","message":"GET /api/payment-providers 404 15ms","timestamp":"2024-08-04T09:54:27.875Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T09:54:31.339Z","user":"anonymous"}
+{"level":"info","message":"GET /api/payment-providers 404 2ms","timestamp":"2024-08-04T09:54:31.358Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 3ms","timestamp":"2024-08-04T09:54:50.886Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"rgrgdrgd\",\"lastname\":\"drgdrgrdg\",\"email\":\"drgdrg@gmail.com\"}","timestamp":"2024-08-04T09:54:59.184Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"rgrgdrgd\",\"lastname\":\"drgdrgrdg\",\"email\":\"drgdrg@gmail.com\",\"isAdmin\":false,\"_id\":\"66af4ff37615628f8525aba3\",\"__v\":0}","timestamp":"2024-08-04T09:54:59.225Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY0ZmYzNzYxNTYyOGY4NTI1YWJhMyIsImVtYWlsIjoiZHJnZHJnQGdtYWlsLmNvbSIsImlhdCI6MTcyMjc2NTI5OSwiZXhwIjoxNzIyODUxNjk5fQ.hzJqgU-Ll3dL2wMuXWbqYsrJehBNnNRXCj5uPpN1BbQ","timestamp":"2024-08-04T09:54:59.226Z"}
+{"level":"info","message":"POST /api/users/register 201 65ms","timestamp":"2024-08-04T09:54:59.228Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T09:54:59.248Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 0ms","timestamp":"2024-08-04T09:55:00.662Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T09:55:03.411Z","user":"anonymous"}
+{"level":"info","message":"GET /api/payment-providers 404 1ms","timestamp":"2024-08-04T09:55:03.458Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:55:49.936Z"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T09:55:53.236Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T09:55:53.259Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T09:55:53.279Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 200 26ms","timestamp":"2024-08-04T09:55:53.283Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T09:55:54.328Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T09:55:54.345Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T09:55:54.349Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T09:55:54.350Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 401 18ms","timestamp":"2024-08-04T09:56:08.717Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:57:12.793Z"}
+{"level":"info","message":"GET /payment-form.html 200 10ms","timestamp":"2024-08-04T09:57:18.957Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T09:57:23.970Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T09:57:25.166Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:59:23.803Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T09:59:53.615Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 200 9ms","timestamp":"2024-08-04T10:00:00.742Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"grvfdcsx\",\"lastname\":\"rvfdcszx\",\"email\":\"gbrvfdcs@gmail.com\"}","timestamp":"2024-08-04T10:00:08.981Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"grvfdcsx\",\"lastname\":\"rvfdcszx\",\"email\":\"gbrvfdcs@gmail.com\",\"isAdmin\":false,\"_id\":\"66af5128245f0c794c5ea39d\",\"__v\":0}","timestamp":"2024-08-04T10:00:09.030Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1MTI4MjQ1ZjBjNzk0YzVlYTM5ZCIsImVtYWlsIjoiZ2JydmZkY3NAZ21haWwuY29tIiwiaWF0IjoxNzIyNzY1NjA5LCJleHAiOjE3MjI4NTIwMDl9.L88dIZUzDlqOx0co2ffB_gndPZNpIuRObcM0a9Lae3g","timestamp":"2024-08-04T10:00:09.030Z"}
+{"level":"info","message":"POST /api/users/register 201 70ms","timestamp":"2024-08-04T10:00:09.033Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"grvfdcsx\",\"lastname\":\"rvfdcszx\",\"email\":\"gbrvfdcs@gmail.com\"}","timestamp":"2024-08-04T10:00:13.961Z"}
+{"level":"error","message":"Error creating user: E11000 duplicate key error collection: payment-app.users index: email_1 dup key: { email: \"gbrvfdcs@gmail.com\" }","timestamp":"2024-08-04T10:00:13.980Z"}
+{"level":"info","message":"POST /api/users/register 500 22ms","timestamp":"2024-08-04T10:00:13.982Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"grvfdcsxdede\",\"lastname\":\"rvfdcszxdeded\",\"email\":\"gbrvfdcdcdcs@gmail.com\"}","timestamp":"2024-08-04T10:00:31.711Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"grvfdcsxdede\",\"lastname\":\"rvfdcszxdeded\",\"email\":\"gbrvfdcdcdcs@gmail.com\",\"isAdmin\":false,\"_id\":\"66af513f245f0c794c5ea3a1\",\"__v\":0}","timestamp":"2024-08-04T10:00:31.721Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1MTNmMjQ1ZjBjNzk0YzVlYTNhMSIsImVtYWlsIjoiZ2JydmZkY2RjZGNzQGdtYWlsLmNvbSIsImlhdCI6MTcyMjc2NTYzMSwiZXhwIjoxNzIyODUyMDMxfQ.DCmGwiPWtUdTbIyZnhg-lMwUtG6SkGSCQBK0Em4ibrM","timestamp":"2024-08-04T10:00:31.721Z"}
+{"level":"info","message":"POST /api/users/register 201 13ms","timestamp":"2024-08-04T10:00:31.723Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:00:50.883Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 200 11ms","timestamp":"2024-08-04T10:00:57.073Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"Agnescda\",\"lastname\":\"Zeqiricd\",\"email\":\"agnesa-zcdcdcdc@hotmail.com\"}","timestamp":"2024-08-04T10:01:04.762Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"Agnescda\",\"lastname\":\"Zeqiricd\",\"email\":\"agnesa-zcdcdcdc@hotmail.com\",\"isAdmin\":false,\"_id\":\"66af516057f68fde8ec06998\",\"__v\":0}","timestamp":"2024-08-04T10:01:04.786Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1MTYwNTdmNjhmZGU4ZWMwNjk5OCIsImVtYWlsIjoiYWduZXNhLXpjZGNkY2RjQGhvdG1haWwuY29tIiwiaWF0IjoxNzIyNzY1NjY0LCJleHAiOjE3MjI4NTIwNjR9.7R6fTFyM06qDRYJWN8JKWaSJMshpYgjTA8qTsa9Rl3g","timestamp":"2024-08-04T10:01:04.787Z"}
+{"level":"info","message":"POST /api/users/register 201 45ms","timestamp":"2024-08-04T10:01:04.789Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T10:01:04.811Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 3ms","timestamp":"2024-08-04T10:01:15.979Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:01:23.456Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:03:08.321Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 200 9ms","timestamp":"2024-08-04T10:03:20.527Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"rfsdzsx\",\"lastname\":\"rfsdzxs\",\"email\":\"gffdvc@gmail.com\"}","timestamp":"2024-08-04T10:03:28.834Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"rfsdzsx\",\"lastname\":\"rfsdzxs\",\"email\":\"gffdvc@gmail.com\",\"isAdmin\":false,\"_id\":\"66af51f00d81f22301e8a6ab\",\"__v\":0}","timestamp":"2024-08-04T10:03:28.855Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1MWYwMGQ4MWYyMjMwMWU4YTZhYiIsImVtYWlsIjoiZ2ZmZHZjQGdtYWlsLmNvbSIsImlhdCI6MTcyMjc2NTgwOCwiZXhwIjoxNzIyODUyMjA4fQ.tBwtZsU95VUveSzJERgrNQYtnkSUN4mFcBCVzZTndz0","timestamp":"2024-08-04T10:03:28.856Z"}
+{"level":"info","message":"POST /api/users/register 201 36ms","timestamp":"2024-08-04T10:03:28.857Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 2ms","timestamp":"2024-08-04T10:03:28.876Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 1ms","timestamp":"2024-08-04T10:03:39.904Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:03:43.652Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:03:43.673Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:03:43.707Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 36ms","timestamp":"2024-08-04T10:03:43.708Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID undefined","timestamp":"2024-08-04T10:03:56.247Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T10:03:56.250Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 9ms","timestamp":"2024-08-04T10:03:56.252Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID undefined","timestamp":"2024-08-04T10:05:03.146Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T10:05:03.148Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T10:05:03.149Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:08:26.420Z"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID undefined","timestamp":"2024-08-04T10:08:35.068Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T10:08:35.074Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 36ms","timestamp":"2024-08-04T10:08:35.078Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /payment-form.html 200 13ms","timestamp":"2024-08-04T10:08:49.119Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:08:49.146Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:08:49.213Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 72ms","timestamp":"2024-08-04T10:08:49.216Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:09:36.434Z"}
+{"level":"info","message":"GET /payment-form.html 304 7ms","timestamp":"2024-08-04T10:09:40.210Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:09:40.246Z"}
+{"level":"error","message":"Error retrieving payment providers: PaymentProvider.findAll is not a function","timestamp":"2024-08-04T10:09:40.254Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 500 16ms","timestamp":"2024-08-04T10:09:40.260Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:09:49.621Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:09:49.637Z"}
+{"level":"error","message":"Error retrieving payment providers: PaymentProvider.findAll is not a function","timestamp":"2024-08-04T10:09:49.637Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 500 2ms","timestamp":"2024-08-04T10:09:49.638Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:10:23.021Z"}
+{"level":"info","message":"GET /payment-form.html 304 6ms","timestamp":"2024-08-04T10:10:26.895Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:10:26.933Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:10:26.979Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 200 52ms","timestamp":"2024-08-04T10:10:26.981Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:11:09.006Z"}
+{"level":"info","message":"GET /payment-form.html 200 10ms","timestamp":"2024-08-04T10:11:12.085Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:11:12.107Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:11:12.130Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 30ms","timestamp":"2024-08-04T10:11:12.132Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 3ms","timestamp":"2024-08-04T10:11:57.752Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:11:57.776Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:11:57.786Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 13ms","timestamp":"2024-08-04T10:11:57.788Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:12:21.285Z"}
+{"level":"info","message":"GET /payment-form.html 200 4ms","timestamp":"2024-08-04T10:12:23.009Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:12:23.037Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:12:23.060Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 27ms","timestamp":"2024-08-04T10:12:23.063Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID 66ae189bebd0601ec58388d5","timestamp":"2024-08-04T10:12:33.824Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:12:34.865Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:12:34.865Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1062ms","timestamp":"2024-08-04T10:12:34.867Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID 66ae189bebd0601ec58388d5","timestamp":"2024-08-04T10:12:37.958Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:12:38.983Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:12:38.983Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1029ms","timestamp":"2024-08-04T10:12:38.985Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID 66ae189bebd0601ec58388d5","timestamp":"2024-08-04T10:12:43.775Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af541b1452620534eea90b\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:12:44.808Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1036ms","timestamp":"2024-08-04T10:12:44.809Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T10:12:47.809Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:13:32.532Z"}
+{"level":"info","message":"GET /additional-info.html 304 12ms","timestamp":"2024-08-04T10:19:54.516Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 7ms","timestamp":"2024-08-04T10:19:57.594Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:19:57.638Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:19:57.690Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 64ms","timestamp":"2024-08-04T10:19:57.699Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 222, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:20:03.796Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af55d3c1f090bcbdd74eec\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:20:04.835Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1069ms","timestamp":"2024-08-04T10:20:04.836Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /success.html 200 3ms","timestamp":"2024-08-04T10:20:14.770Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T10:21:39.972Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:21:40.047Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:21:40.071Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 28ms","timestamp":"2024-08-04T10:21:40.073Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:36:09.049Z"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 111, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T10:36:19.353Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af59a3b79fd5aa54e83346\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:36:20.419Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1094ms","timestamp":"2024-08-04T10:36:20.422Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /success.html 200 6ms","timestamp":"2024-08-04T10:36:22.623Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 200 2ms","timestamp":"2024-08-04T10:36:25.160Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:36:51.717Z"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T10:36:57.766Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:36:57.786Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:36:57.817Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 35ms","timestamp":"2024-08-04T10:36:57.819Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 1, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T10:37:03.302Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af59cf8e3e8ecd2b2aa42d\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:37:04.342Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1064ms","timestamp":"2024-08-04T10:37:04.344Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:37:06.365Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:37:06.387Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:37:06.392Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T10:37:06.394Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 555, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:37:17.319Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af59dd8e3e8ecd2b2aa432\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:37:18.362Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1048ms","timestamp":"2024-08-04T10:37:18.363Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:37:20.382Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:37:20.407Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:37:20.410Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T10:37:20.411Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 2345678, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:37:25.647Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af59e58e3e8ecd2b2aa437\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:37:26.663Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1019ms","timestamp":"2024-08-04T10:37:26.665Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 2345678, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:37:27.308Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:37:28.322Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:37:28.322Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1018ms","timestamp":"2024-08-04T10:37:28.325Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:37:30.555Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:37:30.569Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:37:30.572Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T10:37:30.573Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:38:51.007Z"}
+{"level":"info","message":"GET /payment-form.html 200 11ms","timestamp":"2024-08-04T10:38:55.580Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:38:55.614Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:38:55.637Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 31ms","timestamp":"2024-08-04T10:38:55.639Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 333, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T10:39:01.517Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af5a4529494526a7f6ea19\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:39:02.571Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1075ms","timestamp":"2024-08-04T10:39:02.572Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T10:39:04.599Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:43:01.172Z"}
+{"level":"info","message":"GET /additional-info.html 304 8ms","timestamp":"2024-08-04T10:43:08.776Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 5ms","timestamp":"2024-08-04T10:43:11.599Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:43:11.634Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:43:11.664Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 38ms","timestamp":"2024-08-04T10:43:11.671Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 555, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:43:22.064Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:43:23.107Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:43:23.107Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1069ms","timestamp":"2024-08-04T10:43:23.108Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 555, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:43:51.810Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:43:52.834Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:43:52.834Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1029ms","timestamp":"2024-08-04T10:43:52.835Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 555, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:43:56.572Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:43:57.591Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:43:57.592Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1022ms","timestamp":"2024-08-04T10:43:57.593Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 555, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:44:00.822Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:44:01.834Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:01.834Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1014ms","timestamp":"2024-08-04T10:44:01.835Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /payment-form.html 200 2ms","timestamp":"2024-08-04T10:44:05.179Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:44:05.192Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:44:05.195Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T10:44:05.197Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 5, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:44:10.906Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:44:11.926Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:11.928Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1024ms","timestamp":"2024-08-04T10:44:11.929Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 5, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:44:14.638Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:44:15.649Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:15.649Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1012ms","timestamp":"2024-08-04T10:44:15.651Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 5, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:44:25.684Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:44:26.705Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:26.705Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1025ms","timestamp":"2024-08-04T10:44:26.707Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 5, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:44:38.595Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T10:44:39.614Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:39.614Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1023ms","timestamp":"2024-08-04T10:44:39.615Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"Request to create transaction: User ID 66af51f00d81f22301e8a6ab, Email gffdvc@gmail.com, Amount 5, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:44:55.527Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af5ba7e69406a039923983\",\"userId\":\"66af51f00d81f22301e8a6ab\",\"success\":true}","timestamp":"2024-08-04T10:44:56.545Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1023ms","timestamp":"2024-08-04T10:44:56.546Z","user":"66af51f00d81f22301e8a6ab"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:44:58.558Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:44:58.584Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:44:58.587Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T10:44:58.588Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:46:48.382Z"}
+{"level":"info","message":"GET /payment-form.html 200 11ms","timestamp":"2024-08-04T10:47:00.789Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:47:00.798Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:47:00.817Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 23ms","timestamp":"2024-08-04T10:47:00.819Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 200 8ms","timestamp":"2024-08-04T10:47:08.342Z","user":"anonymous"}
+{"level":"info","message":"GET /register 404 4ms","timestamp":"2024-08-04T10:47:16.727Z","user":"anonymous"}
+{"level":"info","message":"GET /registration.html 200 6ms","timestamp":"2024-08-04T10:47:34.800Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"testtttt\",\"lastname\":\"test123q23\",\"email\":\"est4545@gmail.com\"}","timestamp":"2024-08-04T10:48:15.429Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"testtttt\",\"lastname\":\"test123q23\",\"email\":\"est4545@gmail.com\",\"isAdmin\":false,\"_id\":\"66af5c6fb2f54037dffb50f4\",\"__v\":0}","timestamp":"2024-08-04T10:48:15.487Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY1YzZmYjJmNTQwMzdkZmZiNTBmNCIsImVtYWlsIjoiZXN0NDU0NUBnbWFpbC5jb20iLCJpYXQiOjE3MjI3Njg0OTUsImV4cCI6MTcyMjg1NDg5NX0.ade3rvg8Rb9r8UWVqdLlV8y_IbY6ooPpCaXqYUARts8","timestamp":"2024-08-04T10:48:15.487Z"}
+{"level":"info","message":"POST /api/users/register 201 80ms","timestamp":"2024-08-04T10:48:15.488Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T10:48:15.500Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 1ms","timestamp":"2024-08-04T10:48:18.945Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T10:48:22.248Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:48:22.278Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:48:22.282Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T10:48:22.283Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af5c6fb2f54037dffb50f4, Email est4545@gmail.com, Amount 500, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T10:48:43.709Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af5c8bb2f54037dffb50f8\",\"userId\":\"66af5c6fb2f54037dffb50f4\",\"success\":true}","timestamp":"2024-08-04T10:48:44.750Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1046ms","timestamp":"2024-08-04T10:48:44.751Z","user":"66af5c6fb2f54037dffb50f4"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T10:48:46.762Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:48:46.785Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:48:46.789Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T10:48:46.790Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af5c6fb2f54037dffb50f4, Email est4545@gmail.com, Amount 2000, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T10:50:19.141Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af5cebb2f54037dffb50fd\",\"userId\":\"66af5c6fb2f54037dffb50f4\",\"success\":true}","timestamp":"2024-08-04T10:50:20.170Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1031ms","timestamp":"2024-08-04T10:50:20.170Z","user":"66af5c6fb2f54037dffb50f4"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T10:50:22.183Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:50:22.228Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:50:22.233Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T10:50:22.234Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T10:52:32.676Z"}
+{"level":"info","message":"GET /payment-form.html 304 6ms","timestamp":"2024-08-04T10:52:37.711Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:52:37.757Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:52:37.781Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 30ms","timestamp":"2024-08-04T10:52:37.785Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af5c6fb2f54037dffb50f4, Email est4545@gmail.com, Amount 34343, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T10:52:43.770Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af5d7bf6e920b2cf568791\",\"userId\":\"66af5c6fb2f54037dffb50f4\",\"success\":true}","timestamp":"2024-08-04T10:52:44.802Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1050ms","timestamp":"2024-08-04T10:52:44.804Z","user":"66af5c6fb2f54037dffb50f4"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T10:52:46.824Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T10:52:46.843Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T10:52:46.868Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 27ms","timestamp":"2024-08-04T10:52:46.869Z","user":"anonymous"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 17ms","timestamp":"2024-08-04T11:10:23.338Z","user":"anonymous"}
+{"level":"info","message":"GET /registration.html 304 1ms","timestamp":"2024-08-04T11:10:34.313Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"medina\",\"lastname\":\"jupollixhelili\",\"email\":\"mtrshzf@gmail.com\"}","timestamp":"2024-08-04T11:11:59.000Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"medina\",\"lastname\":\"jupollixhelili\",\"email\":\"mtrshzf@gmail.com\",\"isAdmin\":false,\"_id\":\"66af61fff6e920b2cf568795\",\"__v\":0}","timestamp":"2024-08-04T11:11:59.066Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY2MWZmZjZlOTIwYjJjZjU2ODc5NSIsImVtYWlsIjoibXRyc2h6ZkBnbWFpbC5jb20iLCJpYXQiOjE3MjI3Njk5MTksImV4cCI6MTcyMjg1NjMxOX0.tZusw-eoQorPTN7oHvOeXxELIsfP5YoJ9Vzb_4rTK3k","timestamp":"2024-08-04T11:11:59.067Z"}
+{"level":"info","message":"POST /api/users/register 201 77ms","timestamp":"2024-08-04T11:11:59.067Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T11:11:59.088Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 0ms","timestamp":"2024-08-04T11:12:02.563Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T11:12:07.404Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:12:07.447Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:12:07.460Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 15ms","timestamp":"2024-08-04T11:12:07.462Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af61fff6e920b2cf568795, Email mtrshzf@gmail.com, Amount 5000000, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T11:12:18.861Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T11:12:19.921Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:12:19.921Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1065ms","timestamp":"2024-08-04T11:12:19.922Z","user":"66af61fff6e920b2cf568795"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:12:23.945Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:12:23.982Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:12:23.990Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 23ms","timestamp":"2024-08-04T11:12:23.991Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af61fff6e920b2cf568795, Email mtrshzf@gmail.com, Amount 789798, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T11:12:30.390Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af621ef6e920b2cf56879e\",\"userId\":\"66af61fff6e920b2cf568795\",\"success\":true}","timestamp":"2024-08-04T11:12:31.413Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1027ms","timestamp":"2024-08-04T11:12:31.416Z","user":"66af61fff6e920b2cf568795"}
+{"level":"info","message":"GET /payment-form.html 304 12ms","timestamp":"2024-08-04T11:12:35.451Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:12:35.473Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:12:35.477Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T11:12:35.478Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:21:09.566Z"}
+{"level":"info","message":"GET /registration.html 304 6ms","timestamp":"2024-08-04T11:21:13.650Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 27ms","timestamp":"2024-08-04T11:21:21.259Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 3ms","timestamp":"2024-08-04T11:21:34.662Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"123123123\",\"lastname\":\"123123213\",\"email\":\"dsdwad@gmail.com\"}","timestamp":"2024-08-04T11:22:39.970Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"123123123\",\"lastname\":\"123123213\",\"email\":\"dsdwad@gmail.com\",\"isAdmin\":false,\"_id\":\"66af647f4c3b4e289bfd4652\",\"__v\":0}","timestamp":"2024-08-04T11:22:40.014Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY2NDdmNGMzYjRlMjg5YmZkNDY1MiIsImVtYWlsIjoiZHNkd2FkQGdtYWlsLmNvbSIsImlhdCI6MTcyMjc3MDU2MCwiZXhwIjoxNzIyODU2OTYwfQ.avkOMU8ymUeCIr1txdmwbYcJ2ImkB6VyViQqYOXNaYo","timestamp":"2024-08-04T11:22:40.015Z"}
+{"level":"info","message":"POST /api/users/register 201 54ms","timestamp":"2024-08-04T11:22:40.016Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 2ms","timestamp":"2024-08-04T11:22:40.043Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:22:57.088Z"}
+{"level":"info","message":"GET / 200 5ms","timestamp":"2024-08-04T11:23:01.889Z","user":"anonymous"}
+{"level":"info","message":"GET /registration.html 200 5ms","timestamp":"2024-08-04T11:23:07.374Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 32ms","timestamp":"2024-08-04T11:23:11.745Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 5ms","timestamp":"2024-08-04T11:23:20.899Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 3ms","timestamp":"2024-08-04T11:23:22.147Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 3ms","timestamp":"2024-08-04T11:23:28.445Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"rrr\",\"lastname\":\"rrr\",\"email\":\"agnesa@hotmail.com\"}","timestamp":"2024-08-04T11:23:34.563Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"rrr\",\"lastname\":\"rrr\",\"email\":\"agnesa@hotmail.com\",\"isAdmin\":false,\"_id\":\"66af64b6f9fc9e156cf0159d\",\"__v\":0}","timestamp":"2024-08-04T11:23:34.594Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY2NGI2ZjlmYzllMTU2Y2YwMTU5ZCIsImVtYWlsIjoiYWduZXNhQGhvdG1haWwuY29tIiwiaWF0IjoxNzIyNzcwNjE0LCJleHAiOjE3MjI4NTcwMTR9.D93qPbJ7he12XjAEPys15c7woRcrjlAVC6p6GnbouDo","timestamp":"2024-08-04T11:23:34.595Z"}
+{"level":"info","message":"POST /api/users/register 201 37ms","timestamp":"2024-08-04T11:23:34.597Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T11:23:34.632Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 2ms","timestamp":"2024-08-04T11:23:36.088Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:25:22.519Z"}
+{"level":"info","message":"GET /payment-form.html 304 6ms","timestamp":"2024-08-04T11:25:36.074Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:25:36.130Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:25:36.168Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 43ms","timestamp":"2024-08-04T11:25:36.172Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 1ms","timestamp":"2024-08-04T11:25:39.392Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:25:45.953Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:25:45.973Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:25:45.977Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T11:25:45.979Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:28:54.407Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:30:10.140Z"}
+{"level":"info","message":"GET /payment-form.html 304 9ms","timestamp":"2024-08-04T11:36:34.051Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:36:34.098Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:36:34.143Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 61ms","timestamp":"2024-08-04T11:36:34.151Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af64b6f9fc9e156cf0159d, Email agnesa@hotmail.com, Amount -300, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T11:36:55.701Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af67d794b0ff96bb22558b\",\"userId\":\"66af64b6f9fc9e156cf0159d\",\"success\":true}","timestamp":"2024-08-04T11:36:56.776Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1113ms","timestamp":"2024-08-04T11:36:56.777Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 304 4ms","timestamp":"2024-08-04T11:37:01.650Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:37:01.674Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:37:01.681Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 10ms","timestamp":"2024-08-04T11:37:01.683Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:42:58.679Z"}
+{"level":"info","message":"GET /payment-form.html 304 6ms","timestamp":"2024-08-04T11:43:12.182Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:43:12.227Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:43:12.256Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 35ms","timestamp":"2024-08-04T11:43:12.260Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 34ms","timestamp":"2024-08-04T11:43:20.013Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T11:43:24.046Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:43:24.060Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:43:24.086Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 28ms","timestamp":"2024-08-04T11:43:24.087Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:45:09.182Z"}
+{"level":"info","message":"GET /payment-form.html 200 13ms","timestamp":"2024-08-04T11:45:14.380Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:14.406Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:14.418Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 16ms","timestamp":"2024-08-04T11:45:14.420Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T11:45:15.185Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:15.198Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:15.206Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 10ms","timestamp":"2024-08-04T11:45:15.208Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:45:15.485Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:15.501Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:15.505Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T11:45:15.506Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:45:15.693Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:15.714Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:15.717Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T11:45:15.718Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T11:45:15.875Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:15.894Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:15.898Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T11:45:15.899Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 25ms","timestamp":"2024-08-04T11:45:19.966Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:45:23.987Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:24.009Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:24.028Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 20ms","timestamp":"2024-08-04T11:45:24.029Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 6ms","timestamp":"2024-08-04T11:45:31.732Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 4ms","timestamp":"2024-08-04T11:45:34.911Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:45:35.749Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:35.774Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:35.793Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 21ms","timestamp":"2024-08-04T11:45:35.794Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 3ms","timestamp":"2024-08-04T11:45:41.197Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 304 5ms","timestamp":"2024-08-04T11:45:45.645Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:45:45.690Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:45:45.713Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 24ms","timestamp":"2024-08-04T11:45:45.714Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:45:50.389Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 33ms","timestamp":"2024-08-04T11:46:00.727Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 4ms","timestamp":"2024-08-04T11:46:03.625Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 200 8ms","timestamp":"2024-08-04T11:46:04.743Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:46:04.753Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:46:04.769Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 19ms","timestamp":"2024-08-04T11:46:04.771Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 12ms","timestamp":"2024-08-04T11:46:22.841Z","user":"66af64b6f9fc9e156cf0159d"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T11:46:27.650Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:46:27.670Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:46:27.675Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T11:46:27.677Z","user":"anonymous"}
+{"level":"info","message":"GET /registration.html 304 1ms","timestamp":"2024-08-04T11:46:52.121Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 12ms","timestamp":"2024-08-04T11:46:57.936Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 5ms","timestamp":"2024-08-04T11:47:06.048Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"rsfs\",\"lastname\":\"fefsef\",\"email\":\"sefsef'@gmaiol.com\"}","timestamp":"2024-08-04T11:47:09.693Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"rsfs\",\"lastname\":\"fefsef\",\"email\":\"sefsef'@gmaiol.com\",\"isAdmin\":false,\"_id\":\"66af6a3d1c2aaf4ea780d129\",\"__v\":0}","timestamp":"2024-08-04T11:47:09.722Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWY2YTNkMWMyYWFmNGVhNzgwZDEyOSIsImVtYWlsIjoic2Vmc2VmJ0BnbWFpb2wuY29tIiwiaWF0IjoxNzIyNzcyMDI5LCJleHAiOjE3MjI4NTg0Mjl9.gY_Z6ofe0BsO6v2uvAAQzvM2SqT16Q5HSpN65MaLdLg","timestamp":"2024-08-04T11:47:09.722Z"}
+{"level":"info","message":"POST /api/users/register 201 33ms","timestamp":"2024-08-04T11:47:09.723Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 1ms","timestamp":"2024-08-04T11:47:09.767Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 1ms","timestamp":"2024-08-04T11:47:12.303Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:47:15.755Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:47:15.816Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:47:15.833Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 20ms","timestamp":"2024-08-04T11:47:15.835Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 16ms","timestamp":"2024-08-04T11:47:23.772Z","user":"66af6a3d1c2aaf4ea780d129"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T11:47:27.811Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:47:27.859Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:47:27.865Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 10ms","timestamp":"2024-08-04T11:47:27.867Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:48:48.594Z"}
+{"level":"info","message":"GET /payment-form.html 304 6ms","timestamp":"2024-08-04T11:48:52.515Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:48:52.545Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:48:52.566Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 24ms","timestamp":"2024-08-04T11:48:52.568Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af6a3d1c2aaf4ea780d129, Email sefsef'@gmaiol.com, Amount 43, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T11:48:57.352Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af6aa9d1d62a08a4bfbed4\",\"userId\":\"66af6a3d1c2aaf4ea780d129\",\"success\":true}","timestamp":"2024-08-04T11:48:58.392Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1066ms","timestamp":"2024-08-04T11:48:58.395Z","user":"66af6a3d1c2aaf4ea780d129"}
+{"level":"info","message":"GET /payment-form.html 304 0ms","timestamp":"2024-08-04T11:49:02.413Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:49:02.429Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:49:02.434Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T11:49:02.436Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af6a3d1c2aaf4ea780d129, Email sefsef'@gmaiol.com, Amount -34, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T11:49:06.990Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T11:49:08.032Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:49:08.032Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1047ms","timestamp":"2024-08-04T11:49:08.033Z","user":"66af6a3d1c2aaf4ea780d129"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:49:12.051Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:49:12.072Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:49:12.075Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T11:49:12.076Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 6ms","timestamp":"2024-08-04T11:49:52.615Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:51:58.400Z"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T11:52:18.688Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:52:18.719Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:52:18.728Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 19ms","timestamp":"2024-08-04T11:52:18.732Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af6a3d1c2aaf4ea780d129, Email sefsef'@gmaiol.com, Amount -3, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T11:52:25.701Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T11:52:26.737Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:52:26.738Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1060ms","timestamp":"2024-08-04T11:52:26.739Z","user":"66af6a3d1c2aaf4ea780d129"}
+{"level":"info","message":"Request to create transaction: User ID 66af6a3d1c2aaf4ea780d129, Email sefsef'@gmaiol.com, Amount -3, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T11:52:29.924Z"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:52:30.760Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:52:30.780Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:52:30.783Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T11:52:30.785Z","user":"anonymous"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T11:52:30.951Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:52:30.952Z"}
+{"level":"info","message":"Request to create transaction: User ID 66af6a3d1c2aaf4ea780d129, Email sefsef'@gmaiol.com, Amount -3, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T11:52:37.326Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66af6b85c8c70a3b7c56e516\",\"userId\":\"66af6a3d1c2aaf4ea780d129\",\"success\":true}","timestamp":"2024-08-04T11:52:38.381Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1060ms","timestamp":"2024-08-04T11:52:38.383Z","user":"66af6a3d1c2aaf4ea780d129"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:52:42.618Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:52:42.639Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:52:42.645Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 9ms","timestamp":"2024-08-04T11:52:42.647Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T11:54:38.073Z"}
+{"level":"info","message":"GET /payment-form.html 200 10ms","timestamp":"2024-08-04T11:54:43.522Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:54:43.564Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:54:43.578Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 19ms","timestamp":"2024-08-04T11:54:43.580Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T11:54:45.079Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:54:45.101Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:54:45.111Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 12ms","timestamp":"2024-08-04T11:54:45.112Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T11:54:45.257Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:54:45.275Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:54:45.279Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T11:54:45.281Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:54:45.475Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:54:45.493Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:54:45.496Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T11:54:45.498Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66af6a3d1c2aaf4ea780d129, Email sefsef'@gmaiol.com, Amount -3, Provider ID 66af30a77d955ce8155f5898","timestamp":"2024-08-04T11:54:51.000Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T11:54:52.047Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:54:52.047Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1079ms","timestamp":"2024-08-04T11:54:52.051Z","user":"66af6a3d1c2aaf4ea780d129"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T11:54:56.069Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T11:54:56.086Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T11:54:56.090Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T11:54:56.091Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:05:50.751Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 9ms","timestamp":"2024-08-04T17:05:57.322Z","user":"anonymous"}
+{"level":"info","message":"GET /registration.html 304 2ms","timestamp":"2024-08-04T17:06:03.105Z","user":"anonymous"}
+{"level":"info","message":"POST /api/users/register 400 28ms","timestamp":"2024-08-04T17:06:16.141Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"djvnjdrhgviufngrks\",\"lastname\":\"sjvsrvjbsyrfbsejh\",\"email\":\"rgkhrdgndrgid@gmail.com\"}","timestamp":"2024-08-04T17:06:21.317Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"djvnjdrhgviufngrks\",\"lastname\":\"sjvsrvjbsyrfbsejh\",\"email\":\"rgkhrdgndrgid@gmail.com\",\"isAdmin\":false,\"_id\":\"66afb50dc303ed8b3bc9ea25\",\"__v\":0}","timestamp":"2024-08-04T17:06:21.362Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWZiNTBkYzMwM2VkOGIzYmM5ZWEyNSIsImVtYWlsIjoicmdraHJkZ25kcmdpZEBnbWFpbC5jb20iLCJpYXQiOjE3MjI3OTExODEsImV4cCI6MTcyMjg3NzU4MX0.iOROdL5XeGQfPtRZXXEonzQLH7fow6GZ1qVDWixwu2s","timestamp":"2024-08-04T17:06:21.363Z"}
+{"level":"info","message":"POST /api/users/register 201 51ms","timestamp":"2024-08-04T17:06:21.364Z","user":"anonymous"}
+{"level":"info","message":"GET /success.html 304 2ms","timestamp":"2024-08-04T17:06:21.400Z","user":"anonymous"}
+{"level":"info","message":"GET /additional-info.html 304 1ms","timestamp":"2024-08-04T17:06:23.527Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 4ms","timestamp":"2024-08-04T17:06:26.646Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:06:26.664Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:06:26.690Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 200 28ms","timestamp":"2024-08-04T17:06:26.691Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 8ms","timestamp":"2024-08-04T17:06:58.007Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:07:02.030Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:07:02.049Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:07:02.053Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 6ms","timestamp":"2024-08-04T17:07:02.054Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 4ms","timestamp":"2024-08-04T17:07:07.353Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 7ms","timestamp":"2024-08-04T17:07:11.385Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:07:11.436Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:07:11.440Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T17:07:11.440Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:09:26.462Z"}
+{"level":"info","message":"GET /payment-form.html 200 11ms","timestamp":"2024-08-04T17:09:43.405Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:09:43.439Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:09:43.454Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 18ms","timestamp":"2024-08-04T17:09:43.456Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:09:43.950Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:09:44.014Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:09:44.018Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:09:44.020Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:09:44.180Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:09:44.190Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:09:44.194Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T17:09:44.195Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 34ms","timestamp":"2024-08-04T17:09:53.915Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 4ms","timestamp":"2024-08-04T17:09:57.960Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:09:58.048Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:09:58.053Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:09:58.054Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:10:10.069Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:10:14.090Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:10:14.111Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:10:14.116Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:10:14.117Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:10:20.515Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:10:24.538Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:10:24.566Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:10:24.571Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:10:24.573Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:10:36.762Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:13:00.080Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 8ms","timestamp":"2024-08-04T17:13:05.282Z","user":"anonymous"}
+{"level":"info","message":"GET /registration.html 304 1ms","timestamp":"2024-08-04T17:13:10.721Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 200 4ms","timestamp":"2024-08-04T17:13:17.159Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:13:17.232Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:13:17.247Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 20ms","timestamp":"2024-08-04T17:13:17.250Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 32ms","timestamp":"2024-08-04T17:13:27.955Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:13:35.630Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:17:17.944Z"}
+{"level":"info","message":"GET /payment-form.html 200 11ms","timestamp":"2024-08-04T17:17:24.785Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:17:24.813Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:17:24.825Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 16ms","timestamp":"2024-08-04T17:17:24.827Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 25ms","timestamp":"2024-08-04T17:17:43.109Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:17:48.134Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:17:48.164Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:17:48.172Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 17ms","timestamp":"2024-08-04T17:17:48.174Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 7ms","timestamp":"2024-08-04T17:18:36.093Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:18:41.115Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:18:41.154Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:18:41.166Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 15ms","timestamp":"2024-08-04T17:18:41.168Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:19:13.050Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 34ms","timestamp":"2024-08-04T17:21:51.107Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T17:21:53.743Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:21:53.771Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:21:53.800Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 33ms","timestamp":"2024-08-04T17:21:53.803Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:21:54.887Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 9ms","timestamp":"2024-08-04T17:21:59.983Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:22:00.012Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:22:00.026Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 17ms","timestamp":"2024-08-04T17:22:00.027Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:31:51.659Z"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T17:31:56.308Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:31:56.339Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:31:56.358Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 23ms","timestamp":"2024-08-04T17:31:56.360Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 31ms","timestamp":"2024-08-04T17:32:07.634Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:33:18.516Z"}
+{"level":"info","message":"GET /payment-form.html 200 9ms","timestamp":"2024-08-04T17:33:43.936Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:33:43.958Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:33:43.971Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 18ms","timestamp":"2024-08-04T17:33:43.974Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 35ms","timestamp":"2024-08-04T17:33:52.719Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:33:56.737Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:33:56.764Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:33:56.787Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 26ms","timestamp":"2024-08-04T17:33:56.789Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:36:31.330Z"}
+{"level":"info","message":"GET /payment-form.html 200 7ms","timestamp":"2024-08-04T17:36:41.213Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:36:41.251Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:36:41.259Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 13ms","timestamp":"2024-08-04T17:36:41.262Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 34ms","timestamp":"2024-08-04T17:36:48.234Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:36:51.250Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:36:51.268Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:36:51.273Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T17:36:51.275Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 3ms","timestamp":"2024-08-04T17:36:56.730Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 2ms","timestamp":"2024-08-04T17:36:57.346Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 3ms","timestamp":"2024-08-04T17:36:57.547Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:36:57.900Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:36:59.741Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:36:59.760Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:36:59.765Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:36:59.767Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:37:40.851Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:37:43.869Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:37:43.897Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:37:43.908Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 13ms","timestamp":"2024-08-04T17:37:43.909Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 4ms","timestamp":"2024-08-04T17:37:50.068Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T17:37:53.501Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:37:53.542Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:37:53.548Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:37:53.549Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:38:26.886Z"}
+{"level":"info","message":"GET /payment-form.html 200 8ms","timestamp":"2024-08-04T17:38:33.962Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:38:33.982Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:38:34.002Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 27ms","timestamp":"2024-08-04T17:38:34.006Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:38:34.316Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:38:34.340Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:38:34.344Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:38:34.346Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:38:34.479Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:38:34.498Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:38:34.502Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 4ms","timestamp":"2024-08-04T17:38:34.502Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 28ms","timestamp":"2024-08-04T17:38:41.972Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:38:46.002Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:38:46.027Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:38:46.032Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T17:38:46.034Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:38:51.714Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T17:38:55.733Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:38:55.760Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:38:55.774Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 16ms","timestamp":"2024-08-04T17:38:55.775Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 6ms","timestamp":"2024-08-04T17:39:06.985Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:39:11.006Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:39:11.046Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:39:11.051Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T17:39:11.053Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:40:03.981Z"}
+{"level":"info","message":"GET /payment-form.html 200 10ms","timestamp":"2024-08-04T17:40:29.221Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:40:29.248Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:40:29.260Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 18ms","timestamp":"2024-08-04T17:40:29.262Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 33ms","timestamp":"2024-08-04T17:40:34.977Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:40:38.993Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:40:39.014Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:40:39.035Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 26ms","timestamp":"2024-08-04T17:40:39.039Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:40:43.964Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 8ms","timestamp":"2024-08-04T17:40:48.525Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:40:48.553Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:40:48.557Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T17:40:48.558Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:41:18.320Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 36ms","timestamp":"2024-08-04T17:42:04.166Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 4ms","timestamp":"2024-08-04T17:42:08.190Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:42:08.220Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:42:08.243Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 33ms","timestamp":"2024-08-04T17:42:08.244Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 8ms","timestamp":"2024-08-04T17:42:21.304Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:42:25.320Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:42:25.339Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:42:25.344Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T17:42:25.347Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:42:55.571Z"}
+{"level":"info","message":"GET /?code=M.C503_BAY.2.5949bd80-1da1-7a35-91d4-e7b69670764a 304 8ms","timestamp":"2024-08-04T17:42:59.691Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 4ms","timestamp":"2024-08-04T17:43:05.371Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:43:05.420Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:43:05.439Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 24ms","timestamp":"2024-08-04T17:43:05.442Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 5, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T17:43:10.415Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afbdaeab6da38fced7f0f5\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T17:43:11.464Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1076ms","timestamp":"2024-08-04T17:43:11.467Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:43:15.487Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:43:15.521Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:43:15.529Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 14ms","timestamp":"2024-08-04T17:43:15.531Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount -5, Provider ID 66af401d55edee52f2074aea","timestamp":"2024-08-04T17:43:22.725Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:43:23.749Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:43:23.749Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1028ms","timestamp":"2024-08-04T17:43:23.751Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:43:27.767Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:43:27.787Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:43:27.804Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 20ms","timestamp":"2024-08-04T17:43:27.806Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount -5555, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T17:43:41.575Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:43:42.597Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:43:42.597Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1025ms","timestamp":"2024-08-04T17:43:42.598Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:43:47.537Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:43:47.559Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:43:47.567Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 11ms","timestamp":"2024-08-04T17:43:47.568Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 500, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T17:44:13.481Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afbdedab6da38fced7f104\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T17:44:14.504Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1031ms","timestamp":"2024-08-04T17:44:14.509Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:44:18.523Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:44:18.552Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:44:18.561Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 13ms","timestamp":"2024-08-04T17:44:18.563Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:46:42.553Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:47:38.137Z"}
+{"level":"info","message":"GET /payment-form.html 304 7ms","timestamp":"2024-08-04T17:47:42.152Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:47:42.198Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:47:42.212Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 18ms","timestamp":"2024-08-04T17:47:42.214Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 26ms","timestamp":"2024-08-04T17:47:47.944Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 0ms","timestamp":"2024-08-04T17:47:51.960Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:47:51.985Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:47:52.006Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 26ms","timestamp":"2024-08-04T17:47:52.009Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 5ms","timestamp":"2024-08-04T17:47:58.459Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:48:02.524Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:48:02.549Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:48:02.555Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T17:48:02.556Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:48:13.299Z"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 555, Provider ID 66afb0f4da26854f9333b2c0","timestamp":"2024-08-04T17:48:48.519Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:48:49.568Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:48:49.568Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1077ms","timestamp":"2024-08-04T17:48:49.572Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T17:48:53.596Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:48:53.672Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:48:53.677Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 9ms","timestamp":"2024-08-04T17:48:53.679Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 99, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T17:48:59.719Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:49:00.743Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:49:00.744Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1028ms","timestamp":"2024-08-04T17:49:00.746Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:49:04.761Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:49:04.781Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:49:04.785Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T17:49:04.786Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 1243124134, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T17:49:10.634Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:49:11.654Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:49:11.654Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1023ms","timestamp":"2024-08-04T17:49:11.656Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:49:16.507Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:49:16.528Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:49:16.533Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 9ms","timestamp":"2024-08-04T17:49:16.536Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:50:36.745Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:50:36.768Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:50:36.773Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 9ms","timestamp":"2024-08-04T17:50:36.776Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 5555, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T17:50:46.690Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afbf76c79fcc359813e0a0\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T17:50:47.730Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1044ms","timestamp":"2024-08-04T17:50:47.732Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:50:51.746Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:50:51.765Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:50:51.770Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:50:51.772Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount -3, Provider ID 66afb0f4da26854f9333b2c0","timestamp":"2024-08-04T17:51:02.125Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:51:03.158Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:51:03.159Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1038ms","timestamp":"2024-08-04T17:51:03.160Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:51:07.504Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:51:07.533Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:51:07.538Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:51:07.539Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount -3, Provider ID 66afb0f4da26854f9333b2c0","timestamp":"2024-08-04T17:51:23.139Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afbf9bc79fcc359813e0aa\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T17:51:24.158Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1023ms","timestamp":"2024-08-04T17:51:24.160Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 0ms","timestamp":"2024-08-04T17:51:28.183Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:51:28.201Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:51:28.205Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T17:51:28.205Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T17:52:30.114Z"}
+{"level":"info","message":"GET /payment-form.html 200 11ms","timestamp":"2024-08-04T17:52:44.925Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:52:44.970Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:52:44.979Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 13ms","timestamp":"2024-08-04T17:52:44.981Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:52:45.261Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:52:45.278Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:52:45.282Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 7ms","timestamp":"2024-08-04T17:52:45.284Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:52:45.484Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:52:45.519Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:52:45.549Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 32ms","timestamp":"2024-08-04T17:52:45.550Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T17:52:45.628Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:52:45.636Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:52:45.639Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 4ms","timestamp":"2024-08-04T17:52:45.640Z","user":"anonymous"}
+{"level":"info","message":"GET /payment-form.html 304 13ms","timestamp":"2024-08-04T17:59:36.215Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:59:36.268Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:59:36.326Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 67ms","timestamp":"2024-08-04T17:59:36.333Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 5, Provider ID 66afb0f4da26854f9333b2c0","timestamp":"2024-08-04T17:59:43.020Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T17:59:44.104Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:59:44.105Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1134ms","timestamp":"2024-08-04T17:59:44.106Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T17:59:48.198Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T17:59:48.225Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T17:59:48.243Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 22ms","timestamp":"2024-08-04T17:59:48.244Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T18:00:21.627Z"}
+{"level":"info","message":"GET /payment-form.html 200 16ms","timestamp":"2024-08-04T18:00:23.766Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:00:23.785Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:00:23.802Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 20ms","timestamp":"2024-08-04T18:00:23.804Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 5, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T18:01:07.231Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T18:01:08.278Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T18:01:08.278Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1078ms","timestamp":"2024-08-04T18:01:08.279Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T18:01:12.308Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:01:12.329Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:01:12.346Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 20ms","timestamp":"2024-08-04T18:01:12.348Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount -5, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T18:01:21.024Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afc1f1dd2878a1e5cbe92a\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T18:01:22.070Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1051ms","timestamp":"2024-08-04T18:01:22.072Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T18:01:26.477Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:01:26.505Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:01:26.512Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T18:01:26.513Z","user":"anonymous"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T18:07:04.632Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T18:07:31.943Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T18:08:30.502Z"}
+{"level":"info","message":"GET /payment-form.html 304 7ms","timestamp":"2024-08-04T18:08:36.218Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:08:36.261Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:08:36.292Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 36ms","timestamp":"2024-08-04T18:08:36.294Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 400 30ms","timestamp":"2024-08-04T18:08:44.521Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T18:08:48.544Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:08:48.571Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:08:48.582Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 16ms","timestamp":"2024-08-04T18:08:48.585Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 123, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T18:08:55.380Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment failed. Please try again\",\"error\":{\"message\":\"Payment failed due to provider issues or invalid payment details\",\"success\":false}}","timestamp":"2024-08-04T18:08:56.429Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T18:08:56.429Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 1054ms","timestamp":"2024-08-04T18:08:56.430Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T18:09:00.454Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:09:00.478Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:09:00.481Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T18:09:00.482Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 400 4ms","timestamp":"2024-08-04T18:09:05.378Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T18:09:09.395Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:09:09.416Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:09:09.419Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 5ms","timestamp":"2024-08-04T18:09:09.420Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 5, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T18:10:01.477Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afc3f981a9f26e2067ce88\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T18:10:02.504Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1032ms","timestamp":"2024-08-04T18:10:02.505Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T18:10:06.530Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:10:06.576Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:10:06.583Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 9ms","timestamp":"2024-08-04T18:10:06.585Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 400 4ms","timestamp":"2024-08-04T18:10:13.827Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 2ms","timestamp":"2024-08-04T18:10:17.852Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:10:17.906Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:10:17.928Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 30ms","timestamp":"2024-08-04T18:10:17.929Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 400 4ms","timestamp":"2024-08-04T18:11:05.815Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 1ms","timestamp":"2024-08-04T18:11:09.837Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:11:09.858Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:11:09.876Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 21ms","timestamp":"2024-08-04T18:11:09.878Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afb50dc303ed8b3bc9ea25, Email rgkhrdgndrgid@gmail.com, Amount 55555, Provider ID 66afb19c1aece94dd12251bd","timestamp":"2024-08-04T18:12:14.413Z"}
+{"level":"info","message":"Transaction result: {\"message\":\"Payment processed successfully\",\"id\":\"66afc47e81a9f26e2067ce8f\",\"userId\":\"66afb50dc303ed8b3bc9ea25\",\"success\":true}","timestamp":"2024-08-04T18:12:15.447Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 200 1040ms","timestamp":"2024-08-04T18:12:15.448Z","user":"66afb50dc303ed8b3bc9ea25"}
+{"level":"info","message":"GET /payment-form.html 304 3ms","timestamp":"2024-08-04T18:12:19.466Z","user":"anonymous"}
+{"level":"info","message":"Request to get payment providers","timestamp":"2024-08-04T18:12:19.492Z"}
+{"level":"info","message":"Payment providers retrieved successfully","timestamp":"2024-08-04T18:12:19.496Z"}
+{"level":"info","message":"GET /api/providers/payment-providers 304 8ms","timestamp":"2024-08-04T18:12:19.499Z","user":"anonymous"}
+{"level":"info","message":"POST /api/transactions/create-transaction 401 54ms","timestamp":"2024-08-04T18:27:05.903Z","user":"anonymous"}
+{"level":"info","message":"Request to create user: {\"name\":\"TestwithAdmidfdfdfn Usefrfrfrfefdeded34\",\"lastname\":\"Doe4dededwith Tffeferfrfest\",\"email\":\"johnTes4dededfddfdfdtwiefefefethedede.fedefefsfoee@hbiujhbjhexampfgfgrgedefefrle.com\"}","timestamp":"2024-08-04T18:27:17.575Z"}
+{"level":"info","message":"User created successfully: {\"name\":\"TestwithAdmidfdfdfn Usefrfrfrfefdeded34\",\"lastname\":\"Doe4dededwith Tffeferfrfest\",\"email\":\"johnTes4dededfddfdfdtwiefefefethedede.fedefefsfoee@hbiujhbjhexampfgfgrgedefefrle.com\",\"isAdmin\":false,\"_id\":\"66afc80581a9f26e2067ce93\",\"__v\":0}","timestamp":"2024-08-04T18:27:17.611Z"}
+{"level":"info","message":"Generated JWT for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWZjODA1ODFhOWYyNmUyMDY3Y2U5MyIsImVtYWlsIjoiam9oblRlczRkZWRlZGZkZGZkZmR0d2llZmVmZWZldGhlZGVkZS5mZWRlZmVmc2ZvZWVAaGJpdWpoYmpoZXhhbXBmZ2ZncmdlZGVmZWZybGUuY29tIiwiaWF0IjoxNzIyNzk2MDM3LCJleHAiOjE3MjI4ODI0Mzd9.wk61oejfmPI3O5xnQQ9LDI73WXeNBCmC74HYDZah8vM","timestamp":"2024-08-04T18:27:17.611Z"}
+{"level":"info","message":"POST /api/users/register 201 54ms","timestamp":"2024-08-04T18:27:17.612Z","user":"anonymous"}
+{"level":"info","message":"Request to create transaction: User ID 66afc80581a9f26e2067ce93, Email johnTes4dededfddfdfdtwiefefefethedede.fedefefsfoee@hbiujhbjhexampfgfgrgedefefrle.com, Amount 400, Provider ID 66af30a77d955ce8155f5898jhbjjb","timestamp":"2024-08-04T18:27:40.587Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"66af30a77d955ce8155f5898jhbjjb\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T18:27:40.590Z"}
+{"level":"info","message":"POST /api/transactions/create-transaction 500 8ms","timestamp":"2024-08-04T18:27:40.591Z","user":"66afc80581a9f26e2067ce93"}

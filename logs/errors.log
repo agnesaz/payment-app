@@ -1,0 +1,34 @@
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T08:37:38.935Z"}
+{"level":"error","message":"Error creating user: E11000 duplicate key error collection: payment-app.users index: email_1 dup key: { email: \"test@gmail.com\" }","timestamp":"2024-08-04T09:44:16.620Z"}
+{"level":"error","message":"Error creating user: E11000 duplicate key error collection: payment-app.users index: email_1 dup key: { email: \"gbrvfdcs@gmail.com\" }","timestamp":"2024-08-04T10:00:13.980Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T10:03:56.250Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T10:05:03.148Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T10:08:35.074Z"}
+{"level":"error","message":"Error retrieving payment providers: PaymentProvider.findAll is not a function","timestamp":"2024-08-04T10:09:40.254Z"}
+{"level":"error","message":"Error retrieving payment providers: PaymentProvider.findAll is not a function","timestamp":"2024-08-04T10:09:49.637Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:12:34.865Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:12:38.983Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:37:28.322Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:43:23.107Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:43:52.834Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:43:57.592Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:01.834Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:11.928Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:15.649Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:26.705Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T10:44:39.614Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:12:19.921Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:49:08.032Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:52:26.738Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:52:30.952Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T11:54:52.047Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:43:23.749Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:43:42.597Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:48:49.568Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:49:00.744Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:49:11.654Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:51:03.159Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T17:59:44.105Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T18:01:08.278Z"}
+{"level":"error","message":"Transaction failed: Payment failed. Please try again","timestamp":"2024-08-04T18:08:56.429Z"}
+{"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"66af30a77d955ce8155f5898jhbjjb\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T18:27:40.590Z"}
