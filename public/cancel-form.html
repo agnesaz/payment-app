@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cancel Subscription</title>
+</head>
+<body>
+  <form method="post" id="cancel_form" action="https://quickpay.ugpayments.ch/Cancel" novalidate="novalidate">
+    <div class="form-row">
+      <label>QuickPay Token</label>
+      <input name="QuickPayToken" type="text" value="YourQuickpayToken">
+    </div>
+    <div class="form-row">
+      <label>Username</label>
+      <input name="username" type="text" value="CustomersUsername">
+    </div>
+    <div class="form-row">
+      <label>Site ID</label>
+      <input name="SiteID" type="text" value="YourSITEID">
+    </div>
+    <div class="form-row">
+      <input type="submit" value="Cancel Subscription">
+    </div>
+  </form>
+</body>
+</html>
