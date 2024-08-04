@@ -971,3 +971,4 @@
 {"level":"info","message":"Request to create transaction: User ID 66afc80581a9f26e2067ce93, Email johnTes4dededfddfdfdtwiefefefethedede.fedefefsfoee@hbiujhbjhexampfgfgrgedefefrle.com, Amount 400, Provider ID 66af30a77d955ce8155f5898jhbjjb","timestamp":"2024-08-04T18:27:40.587Z"}
 {"level":"error","message":"Unexpected error occurred while creating transaction: Cast to ObjectId failed for value \"66af30a77d955ce8155f5898jhbjjb\" (type string) at path \"_id\" for model \"PaymentProvider\"","timestamp":"2024-08-04T18:27:40.590Z"}
 {"level":"info","message":"POST /api/transactions/create-transaction 500 8ms","timestamp":"2024-08-04T18:27:40.591Z","user":"66afc80581a9f26e2067ce93"}
+{"level":"info","message":"Database connected successfully","timestamp":"2024-08-04T20:07:17.119Z"}
